@@ -109,13 +109,11 @@ a {
 /* Hero section */
 /* ****************** */
 .section-hero {
-  /* top | horizontal | bottom */
   padding: 15rem 0 9.6rem;
 }
 
 .hero {
   max-width: 75rem;
-  /* vertical | horizontal */
   padding: 0 9.6rem;
   align-items: left;
 }
@@ -124,4 +122,76 @@ a {
   font-size: 2rem;
   line-height: 1.6;
   margin: 4.8rem 0;
+}
+
+/* ****************** */
+/* Our Services */
+/* ****************** */
+.our-services {
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.5rem 3.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.services img {
+  width: 80%;
+  border-radius: 9px;
+}
+
+/* ****************** */
+/* About Us */
+/* ****************** */
+
+.grid-about {
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 0;
+  filter: drop-shadow(0px 12px 16px rgba(0, 0, 0, 0.2));  
+}
+
+.about {
+  padding: 2rem 0 7rem 0;
+}
+
+.about img {
+  width: 98%;
+  justify-self: end;
+  border-radius: 9px;
+}
+
+.about p {
+  font-size: 2.2rem;
+}
+
+.text {
+  max-width: 45rem;
+  background-color: #e7ac21;
+  padding: 10rem 5rem;
+  margin-left: -5rem;
+  border-radius: 9px;
+}
+
+.text h2 {
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+/* ****************** */
+/* Footer */
+/* ****************** */
+
+footer {
+  text-align: center;
+  background-color: #e7ac21;
+  padding: 2.5rem;
 }
